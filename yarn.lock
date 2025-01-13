@@ -7869,74 +7869,90 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lefthook-darwin-arm64@npm:1.6.9":
-  version: 1.6.9
-  resolution: "lefthook-darwin-arm64@npm:1.6.9"
+"lefthook-darwin-arm64@npm:1.10.4":
+  version: 1.10.4
+  resolution: "lefthook-darwin-arm64@npm:1.10.4"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-darwin-x64@npm:1.6.9":
-  version: 1.6.9
-  resolution: "lefthook-darwin-x64@npm:1.6.9"
+"lefthook-darwin-x64@npm:1.10.4":
+  version: 1.10.4
+  resolution: "lefthook-darwin-x64@npm:1.10.4"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook-freebsd-arm64@npm:1.6.9":
-  version: 1.6.9
-  resolution: "lefthook-freebsd-arm64@npm:1.6.9"
+"lefthook-freebsd-arm64@npm:1.10.4":
+  version: 1.10.4
+  resolution: "lefthook-freebsd-arm64@npm:1.10.4"
   conditions: os=freebsd & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-freebsd-x64@npm:1.6.9":
-  version: 1.6.9
-  resolution: "lefthook-freebsd-x64@npm:1.6.9"
+"lefthook-freebsd-x64@npm:1.10.4":
+  version: 1.10.4
+  resolution: "lefthook-freebsd-x64@npm:1.10.4"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook-linux-arm64@npm:1.6.9":
-  version: 1.6.9
-  resolution: "lefthook-linux-arm64@npm:1.6.9"
+"lefthook-linux-arm64@npm:1.10.4":
+  version: 1.10.4
+  resolution: "lefthook-linux-arm64@npm:1.10.4"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-linux-x64@npm:1.6.9":
-  version: 1.6.9
-  resolution: "lefthook-linux-x64@npm:1.6.9"
+"lefthook-linux-x64@npm:1.10.4":
+  version: 1.10.4
+  resolution: "lefthook-linux-x64@npm:1.10.4"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook-windows-arm64@npm:1.6.9":
-  version: 1.6.9
-  resolution: "lefthook-windows-arm64@npm:1.6.9"
+"lefthook-openbsd-arm64@npm:1.10.4":
+  version: 1.10.4
+  resolution: "lefthook-openbsd-arm64@npm:1.10.4"
+  conditions: os=openbsd & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"lefthook-openbsd-x64@npm:1.10.4":
+  version: 1.10.4
+  resolution: "lefthook-openbsd-x64@npm:1.10.4"
+  conditions: os=openbsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"lefthook-windows-arm64@npm:1.10.4":
+  version: 1.10.4
+  resolution: "lefthook-windows-arm64@npm:1.10.4"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-windows-x64@npm:1.6.9":
-  version: 1.6.9
-  resolution: "lefthook-windows-x64@npm:1.6.9"
+"lefthook-windows-x64@npm:1.10.4":
+  version: 1.10.4
+  resolution: "lefthook-windows-x64@npm:1.10.4"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
 "lefthook@npm:^1.3.8":
-  version: 1.6.9
-  resolution: "lefthook@npm:1.6.9"
+  version: 1.10.4
+  resolution: "lefthook@npm:1.10.4"
   dependencies:
-    lefthook-darwin-arm64: "npm:1.6.9"
-    lefthook-darwin-x64: "npm:1.6.9"
-    lefthook-freebsd-arm64: "npm:1.6.9"
-    lefthook-freebsd-x64: "npm:1.6.9"
-    lefthook-linux-arm64: "npm:1.6.9"
-    lefthook-linux-x64: "npm:1.6.9"
-    lefthook-windows-arm64: "npm:1.6.9"
-    lefthook-windows-x64: "npm:1.6.9"
+    lefthook-darwin-arm64: "npm:1.10.4"
+    lefthook-darwin-x64: "npm:1.10.4"
+    lefthook-freebsd-arm64: "npm:1.10.4"
+    lefthook-freebsd-x64: "npm:1.10.4"
+    lefthook-linux-arm64: "npm:1.10.4"
+    lefthook-linux-x64: "npm:1.10.4"
+    lefthook-openbsd-arm64: "npm:1.10.4"
+    lefthook-openbsd-x64: "npm:1.10.4"
+    lefthook-windows-arm64: "npm:1.10.4"
+    lefthook-windows-x64: "npm:1.10.4"
   dependenciesMeta:
     lefthook-darwin-arm64:
       optional: true
@@ -7950,13 +7966,17 @@ __metadata:
       optional: true
     lefthook-linux-x64:
       optional: true
+    lefthook-openbsd-arm64:
+      optional: true
+    lefthook-openbsd-x64:
+      optional: true
     lefthook-windows-arm64:
       optional: true
     lefthook-windows-x64:
       optional: true
   bin:
     lefthook: bin/index.js
-  checksum: 10/66735e4309901340b247f600efc23b5b9a4f59a6a28eee75af810040e3741a24963f3addcea0627c9029534fb54ef0a673ff65c403c3afcbe8b4ec0e0c476e71
+  checksum: 10/dead8422e3e07a20db0f48ac22a651dda0733d5ac043e505de7c4d91d130285a9eca1588459bf9bc42be56758461e63ca8f8f88f3858b06705f218f25a7ef776
   languageName: node
   linkType: hard
 
